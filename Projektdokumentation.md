@@ -1,8 +1,4 @@
-# LA-1300
 # Projekt-Dokumentation
-
-
-
 Agachan Atputharasa
 
 | Datum | Version | Zusammenfassung                                              |
@@ -15,14 +11,21 @@ Agachan Atputharasa
 
 ### 1.1 Ihr Projekt
 
-In diesem Projekt modifiziere ich meinen alten Projekt Random Number Guesser, in dem ich eine Klasse
+In diesem Projekt modifiziere ich meinen alten Projekt Random Number Guesser, in dem ich ein Zweispielermodus und eine Highscoreliste ergänze.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    | Muss | Funktional| Als ein Programmierer möchte ich eine Zufallszahl generieren, damit der Benutzer, dass spielen kann. |
+| 2    | Muss | Funktional| Als ein Benutzer möchte ich das Zahl raten können, damit ich es überhaupt spielen kann.|
+| 3    | Muss | Funktional| Als ein Benutzer möchte ich ein Hinweis bekommen, damit ich weiss, ob die geratene Zahl grösser oder niedriger ist als die geratene Zahl oder es erraten wurde.|
+| 4    | Muss | Funktional| Als ein Programmierer möchte ich die Anzahl der Rateversuche ausgeben, damit der Benutzer sich konstant verbessern kann.|
+| 5    | Muss | Funktional| Als ein Programmierer möchte ich alle Fehlereingaben umgehen, damit der Benutzer ohne Probleme weiterspielen kann.|
+| 6    | Muss | Funktional| Als ein Programmierer möchte ich ein Zweispielermodus erstellen, damit der Benutzer mit Freunden spielen kann.|
+| 7    | Muss | Funktional| Als ein Programmierer möchte ich ein Highscoreliste generieren, damit der Benutzer sich mit seinen Freunden vergleichen kann.|
+| 8    | Muss | Funktional| Als ein Benutzer möchte ich, dass ich mehrere Runden das Spiel spielen kann, damit der Benutzer nicht immer wieder das Programm schliessen muss.|
+| 9    | Muss | Rand | Das Programm soll in C# geschrieben sein.|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
