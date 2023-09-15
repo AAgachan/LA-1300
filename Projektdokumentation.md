@@ -92,23 +92,5 @@ Total: 255'
 | 7.1  |       1.09.23 |          OK|      A.Atputharasa    |
 | 8.1  |       1.09.23 |          OK|        A.Atputharasa  |
 
-Es gab hier keine Probleme
+Es gab hier keine Probleme.
 
-### 4.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt             |         |                   |                      |
-| II    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert,Guess the number between 1 and 1000             |         |                   |                      |
-|III  | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert,Guess the number between 1 and 1000             |         |                   |                      |
-| IV    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert,Guess the number between 1 and 1000             |         |                   |                      |
-| V    | Programm gestartet, Singleplayer Modus gewählt, Choose the range of numbers you would like to guess             |         |                   |                      |
-| VI    | Programm gestartet,Select game mode:, 1. Single Player, 2. Two Player             |         |                   |                      |
-| VII    |Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert, Zufallszahl erraten              |         |                   |                      |
-| VIII    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert, Zufallszahl erraten              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 5 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
