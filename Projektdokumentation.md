@@ -3,10 +3,10 @@ Agachan Atputharasa
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|  18.08.23     | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|  25.08.23     | ...     |                                                              |
-|  01.09.23     | 1.0.0   |                                                              |
-
+|  18.08.23     | 0.0.1   | Ich machte mir Gedanken, wie ich dieses Projekt Objektorientiert programmieren kann. |
+|  25.08.23     | 0.0.2     | Ich konnte wie im Plan steht diese Arbeitspakete lösen                                                             |
+|  01.09.23     | 0.1.0   |   Es gab Probleme  die ich noch geschafft habe zu lösen                                                         |
+|  08.09.23     | 1.0.0   |   Programm fertig geschrieben                                                           |
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
@@ -44,55 +44,71 @@ In diesem Projekt modifiziere ich meinen alten Projekt Random Number Guesser Obj
 
 
 ### 1.4 Diagramme
+![Number Guessing Game](https://github.com/AAgachan/LA-1300/assets/110893260/c01b0f1e-3880-4e74-9b13-11c2447c8c3f)
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 18.08.23      |    A.Atputharasa         |   eine Zufallszahl generieren            |     5'          |
+| 2.A  | 25.08.23      |  A.Atputharasa           | das Zahl raten können             | 5'              |
+| 3.A  |25.08.23       |    A.Atputharasa         |  ein Hinweis bekommen             | 20'              |
+| 4.A  | 25.08.23      |     A.Atputharasa        |die Anzahl der Rateversuche ausgeben              |   30'            |
+| 5.A  |  25.08.23     |  A.Atputharasa           | Zahlenbereich selber aussuchen können              | 30'              |
+| 6.A  | 1.09.23      |     A.Atputharasa        |   ein Zweispielermodus erstellen            | 90'              |
+| 7.A  |1.09.23       |      A.Atputharasa       |  mehrere Runden das Spiel spielen            | 30'              |
+| 8.A  | 1.09.23      |           A.Atputharasa  |   ein Highscoreliste generieren            |    45'           |
+Total: 255'
 
-Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
-## 3 Entscheiden
-
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
-
-## 4 Realisieren
+## 3 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 18.08.23       |   A.Atputharasa          |  5'            |    5'           |
+| 2.A  |25.08.23        |    A.Atputharasa         |    5'          |      5'         |
+| 3.A  | 25.08.23       |        A.Atputharasa     |      20'        |      15'         |
+| 4.A  | 25.08.23       |           A.Atputharasa  |       30'       |        45'       |
+| 5.A  |   25.08.23     |         A.Atputharasa    |        30'      |      15'         |
+| 6.A  | 1.09.23      |         A.Atputharasa    |          90'    |         120'      |
+| 7.A  |  1.09.23     |        A.Atputharasa     |           30'   |       10'        |
+| 8.A  |  1.09.23     |         A.Atputharasa    |            45'  |       20'        |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
-## 5 Kontrollieren
+## 4 Kontrollieren
 
-### 5.1 Testprotokoll
+### 4.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |   1.09.23     | OK         | A.Atputharasa       |
+| 2.1  |     1.09.23   |   OK       |  A.Atputharasa        |
+| 3.1  |     1.09.23   |   OK       |  A.Atputharasa        |
+| 4.1  |     1.09.23   |     OK     |   A.Atputharasa       |
+| 5.1  |       1.09.23 |       OK   |    A.Atputharasa      |
+| 6.1  |    1.09.23    |         OK |     A.Atputharasa     |
+| 7.1  |       1.09.23 |          OK|      A.Atputharasa    |
+| 8.1  |       1.09.23 |          OK|        A.Atputharasa  |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Es gab hier keine Probleme
 
-### 5.2 Exploratives Testen
+### 4.2 Exploratives Testen
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
+| I    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt             |         |                   |                      |
+| II    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert,Guess the number between 1 and 1000             |         |                   |                      |
+|III  | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert,Guess the number between 1 and 1000             |         |                   |                      |
+| IV    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert,Guess the number between 1 and 1000             |         |                   |                      |
+| V    | Programm gestartet, Singleplayer Modus gewählt, Choose the range of numbers you would like to guess             |         |                   |                      |
+| VI    | Programm gestartet,Select game mode:, 1. Single Player, 2. Two Player             |         |                   |                      |
+| VII    |Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert, Zufallszahl erraten              |         |                   |                      |
+| VIII    | Programm gestartet, Singleplayer Modus gewählt, Zahlenbereich ausgewählt, Zufallszahl generiert, Zufallszahl erraten              |         |                   |                      |
 
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
-## 6 Auswerten
+## 5 Auswerten
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
